@@ -1,4 +1,4 @@
-import { createApp } from "vue";
+import { value createApp } from "vue";
 import App from "./views/App.vue";
 
 import "@/assets/tailwind.css";
