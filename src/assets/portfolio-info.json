@@ -1,0 +1,83 @@
+{
+  "owner": "Luca Mastrorilli",
+  "role": "Frontend Engineer",
+  "email": "mastrorilli.luca@gmail.com",
+  "dob": "18/11/1986",
+  "nationality": ["it", "aus"],
+  "phone": "+39 3899354752",
+  "profilePicture": "luca-portrait.jpg",
+  "experiences": [
+    {
+      "company": {
+        "name": "Siteminder",
+        "url": "http://siteminder.com",
+        "description": "the world’s leading hotel commerce platform"
+      },
+      "location": "aus",
+      "startDate": "01/12/2016",
+      "endDate": "01/11/2018",
+      "description": "Lorem Ipsum",
+      "role": "Senior Frontend Engineer",
+      "stack": ["AngularJS", "Vuejs", "Typescript", "GraphQL", "SCSS", "Vuex"],
+      "skills": ["Full project tech migration", "Performance", "Microservices"],
+      "isRecent": true
+    },
+    {
+      "company": {
+        "name": "InnoWell",
+        "url": "http://innowell.org",
+        "description": "Innowell provides research-validated digital tools and personalised insights to connect your people to the support they need when they need it"
+      },
+      "location": "aus",
+      "startDate": "01/11/2018",
+      "endDate": "01/06/2020",
+      "description": "",
+      "role": "Senior Frontend Engineer",
+      "stack": ["React", "Redux", "Flow", "GraphQL", "SCSS", "React-Native"],
+      "skills": [
+        "Design System",
+        "User Testing",
+        "A/B Testing",
+        "Design Thinking"
+      ],
+      "isRecent": true
+    },
+    {
+      "company": {
+        "name": "Big Picture Medical",
+        "url": "http://bigpicturemedical.com",
+        "description": "Building the future of the Health Care ecosystem"
+      },
+      "location": "aus",
+      "startDate": "01/08/2020",
+      "endDate": null,
+      "description": "Lorem Ipsum",
+      "role": "Senior Frontend Lead",
+      "stack": [
+        "Vuejs",
+        "Typescript",
+        "TailwindCSS",
+        "Laravel",
+        "Ionic",
+        "AWS"
+      ],
+      "skills": ["Design System", "Mentoring", "Remote work", "Pairing"],
+      "isRecent": true
+    },
+    {
+      "company": {
+        "name": "Lakeba Group",
+        "url": "",
+        "description": ""
+      },
+      "location": "aus",
+      "startDate": "01/12/2015",
+      "endDate": "30/09/2016",
+      "description": "Lorem Ipsum",
+      "role": "Frontend Engineer",
+      "stack": ["AngularJS"],
+      "skills": ["Team Lead"],
+      "isRecent": false
+    }
+  ]
+}
