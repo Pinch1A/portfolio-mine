@@ -4,8 +4,16 @@ https://www.color-name.com/cayenne-orange.color
 Profile:
 https://codepen.io/LoSti/pen/mdLoeZG
 
-vue-router active link 
+vue-router active link
 https://www.webmound.com/custom-active-class-to-router-link-in-vue-3/
 
 Theme (daisyUI)Ï
 https://daisyui.com/theme-generator/
+
+
+Flags:
+https://github.com/lipis/flag-icons
+
+
+Text Animation:
+https://vanntile.com/blog/composited-typing-animation

@@ -1,0 +1,30 @@
+{
+    "counts": {
+        "ignored": 0,
+        "violation": 1,
+        "potentialviolation": 4
+    },
+    "startReport": 1679083642746,
+    "endReport": 1679083644623,
+    "toolID": "accessibility-checker-v3.1.46",
+    "policies": "IBM_Accessibility",
+    "reportLevels": [
+        "violation",
+        "potentialviolation"
+    ],
+    "failLevels": [
+        "violation",
+        "potentialviolation"
+    ],
+    "scanID": "7df1246c-9056-4cdb-8ea9-9a988c4ccb51",
+    "pageScanSummary": [
+        {
+            "label": "localhost_8081/",
+            "counts": {
+                "violation": 1,
+                "potentialviolation": 4,
+                "ignored": 0
+            }
+        }
+    ]
+}

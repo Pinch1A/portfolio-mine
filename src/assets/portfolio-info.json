@@ -6,6 +6,11 @@
   "nationality": ["it", "aus"],
   "phone": "+39 3899354752",
   "profilePicture": "luca-portrait.jpg",
+  "links": [
+     {"url" : "https://www.linkedin.com/in/mastrorilliluca/", "icon": "fa-brands fa-linkedin", "label": "linkedin"},
+     {"url" : "https://github.com/Pinch1A", "icon": "fa-brands fa-github", "label": "github"}
+  ],
+  "resume": "Resume1PageRainbowOrange.png",
   "experiences": [
     {
       "company": {

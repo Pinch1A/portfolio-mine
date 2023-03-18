@@ -12,6 +12,7 @@
 
 html,
 body {
+  width: 100%;
   height: 100%;
   min-height: 100vh;
 }
@@ -20,18 +21,61 @@ body {
   display: none !important;
 }
 
+@layer utilities {
+  code,
+  kbd,
+  samp,
+  pre {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    /* 1 */
+    font-size: 1em;
+    /* 2 */
+    white-space: pre-line;
+  }
+
+}
+
 @layer components {
   .navbar-item {
-    @apply relative before:content-[''] before:absolute before:block before:w-full before:h-[2px] 
-              before:-bottom-1 before:left-0 before:bg-primary-focus
+    @apply relative before:content-[''] before:absolute before:block before:w-full before:h-[2px]
+              before:-bottom-1 before:left-0 before:bg-secondary-focus
               before:hover:scale-x-100 before:scale-x-0 before:origin-top-left
               before:transition before:ease-in-out before:duration-200;
   }
-  .navbar-item.active {
-    @apply text-primary-focus underline underline-offset-8;
-  }
 
   .navbar-item.exact-active-link {
-    @apply text-primary font-bold underline underline-offset-8;
+    @apply text-error tracking-[0.03rem] capitalize text-sm underline-offset-4;
+  }
+
+  .writer {
+    font-family: Courier, monospace;
+    display: inline-block;
+  }
+  .writer-text {
+    display: inline-block;
+    letter-spacing: 1px;
+    animation: typing 3s steps(30, end), blink 0.75s step-end infinite;
+    white-space: nowrap;
+    /* font-size: 30px; */
+    border-right: 3px solid white;
+    @apply text-lg overflow-hidden text-secondary-focus;
+  }
+  @keyframes typing {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 100%;
+    }
+  }
+
+  @keyframes blink {
+    from,
+    to {
+      border-color: transparent;
+    }
+    50% {
+      border-color: white;
+    }
   }
 }
